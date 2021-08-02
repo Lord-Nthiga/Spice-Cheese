@@ -12,19 +12,19 @@ body {
     backdrop-filter: blur(5px);
     height: 500px;
     width: 300px;
-    top: 260px;
+    top: 400px;
     margin-left: 100px;
     border-radius: 17px;
 }
 #sm {
     position: absolute;
-    top: 240px;
+    top: 380px;
     left: 150px;
 }
 #smallS {
     position: absolute;
     top: 150px;
-    left: 60px;
+    left: 75px;
 
 }
 #medium {
@@ -33,18 +33,18 @@ body {
     backdrop-filter: blur(5px);
     height: 500px;
     width: 300px;
-    top: 260px;
+    top: 400px;
     left: 650px;
     border-radius: 17px;
 }
 #md {
     position: absolute;
     left: 675px;
-    top: 180px;
+    top: 330px;
 }
 #mediumS {
     position: absolute;
-    top: 140px;
+    top: 160px;
     left: 70px;
 }
 #large {
@@ -53,19 +53,19 @@ body {
     backdrop-filter: blur(5px);
     height: 500px;
     width: 300px;
-    top: 260px;
+    top: 400px;
     right: 100px;
     border-radius: 17px;
 }
 #lrg {
     position: absolute;
     right: 30px;
-    top: 140px;
+    top: 290px;
 }
 #largeS {
     text-align: center;
     position: absolute;
-    top: 155px;
+    top: 165px;
     left: 80px;
 }
 .toppings{
@@ -73,14 +73,11 @@ body {
     text-align: center;
     top: 200px;
 }
-
-
-
-
 .content {
     display: none;
 }
 button {
+    position: absolute;
     margin-top: 30px;
 }
 .back {
