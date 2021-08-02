@@ -67,3 +67,27 @@ body {
     top: 150px;
     left: 60px;
 }
+.toppings{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+}
+
+
+
+
+.content {
+    display: none;
+}
+button {
+    margin-top: 30px;
+}
+.back {
+    display: none;
+}
+.next {
+    margin-left: 50px;
+}
+.end {
+    display: none;
+}
