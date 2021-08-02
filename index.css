@@ -1,0 +1,69 @@
+body {
+    background-color: red;
+}
+#top {
+    position: absolute;
+    text-align: center;
+    left: 150px;
+}
+#small {
+    position: absolute;
+    background-color: rgba(241, 237, 7, 0.664);  
+    backdrop-filter: blur(5px);
+    height: 500px;
+    width: 300px;
+    top: 260px;
+    margin-left: 100px;
+    border-radius: 17px;
+}
+#sm {
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+#smallS {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+
+}
+#medium {
+    position: absolute;
+    background-color: rgba(241, 237, 7, 0.664);  
+    backdrop-filter: blur(5px);
+    height: 500px;
+    width: 300px;
+    top: 260px;
+    left: 650px;
+    border-radius: 17px;
+}
+#md {
+    position: absolute;
+    left: 675px;
+    top: 180px;
+}
+#mediumS {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+}
+#large {
+    position: absolute;
+    background-color: rgba(241, 237, 7, 0.664);  
+    backdrop-filter: blur(5px);
+    height: 500px;
+    width: 300px;
+    top: 260px;
+    right: 100px;
+    border-radius: 17px;
+}
+#lrg {
+    position: absolute;
+    right: 30px;
+    top: 140px;
+}
+#largeS {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
