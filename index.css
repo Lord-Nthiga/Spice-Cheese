@@ -97,3 +97,15 @@ button {
     top: 200px;
     left: 50px;
 }
+.footer {
+    position: absolute;
+    background-color: rgba(241, 237, 7, 0.664);
+    width: 1500px;
+    height: 240px;
+    top: 1000px;
+    left: 40px;
+    margin-bottom: 40px;
+    border-radius: 17px;
+    
+
+}
