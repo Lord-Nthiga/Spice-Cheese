@@ -27,7 +27,5 @@ $('body').on('click', '.back', function() {
     
 	
 });
-
-$('body').on('click', '.edit-previous', function() { 
-	
+$('body').on('click', '.edit-previous', function() { 	
 });
