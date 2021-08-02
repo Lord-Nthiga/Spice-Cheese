@@ -113,7 +113,29 @@
             </div>
         </div>
         <img id="lrg"  src="assets/pizzasize.png" alt="" width="380px" >
+        <br>
+        <div>
+            <img id="deliver" src="assets/deliveries-removebg-preview.png" alt="For Deliveries and inquiries too...0742515899" width="200px">
+            <h2 id="deliverTxt"><strong>DELIVERIES<span style="color: yellow;">?</span></strong></h2>
+            <p id="number" ><strong>PLEASE ENTER <span style="color: yellow;" >YOUR NUMBER</span> IN THE <span style="color: yellow;" >ABOVE POP UP</span> <br>
+                and we will call you right back😉</strong></p>
+            <button id="numberClick"  onclick="myFunction()" ><strong>TAP HERE</strong></button>
+            <p id="number" ></p>
+            <script>
+                function myFunction () {
+                    let text;
+                    let person = prompt("Please enter your phone number");
+                    if (person == null || person == "") {
+                        text = "???.";
+                    } else {
+                        text = "Thank you" + person + "Our team will call you shortly";
+                    }
+                    document.getElementById(number).innerHTML = text;
+                }
+            </script>
+        </div>
+        <div class="footer"></div>
         <script src="bootstrap.min.js" async defer></script>
     </body>
-    <div class="footer"></div>
+    
     </html>
