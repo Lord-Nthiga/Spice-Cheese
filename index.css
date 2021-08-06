@@ -10,7 +10,7 @@ body {
     position: absolute;
     background-color: rgba(241, 237, 7, 0.664);  
     backdrop-filter: blur(5px);
-    height: 800px;
+    height: 700px;
     width: 300px;
     top: 400px;
     margin-left: 100px;
@@ -31,7 +31,7 @@ body {
     position: absolute;
     background-color: rgba(241, 237, 7, 0.664);  
     backdrop-filter: blur(5px);
-    height: 800px;
+    height: 700px;
     width: 300px;
     top: 400px;
     left: 650px;
@@ -51,7 +51,7 @@ body {
     position: absolute;
     background-color: rgba(241, 237, 7, 0.664);  
     backdrop-filter: blur(5px);
-    height: 800px;
+    height: 700px;
     width: 300px;
     top: 400px;
     right: 100px;
@@ -94,33 +94,34 @@ button {
     left: 50px;
 }
 .footer {
-    position: absolute;
+    position: relative;
     background-color: rgba(241, 237, 7, 0.664);
     width: 1500px;
-    height: 240px;
-    top: 1200px;
+    height: 220px;
+    top: 1500px;
     left: 40px;
     margin-bottom: 40px;
     border-radius: 17px;
 }
 #deliver {
     position: absolute;
-    top: 1920px;
+    top: 1120px;
     left: 655px;
 }
 #deliverTxt {
     position: absolute;
-    top: 1060px;
+    top: 1300px;
     left: 655px;
 }
 #number {
     position: absolute;
     text-align: center;
-    top: 1100px;
+    top: 1340px;
     left: 555px;
 }
 #numberClick {
     position: absolute;
-    top: 1120px;
+    top: 1380px;
     left: 710px
+    
 }
